@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  resources :blog_articles
+
+  # sets /feed to call blog_article_controller's feed method
+  get 'feed' => 'blog_articles#feed'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
