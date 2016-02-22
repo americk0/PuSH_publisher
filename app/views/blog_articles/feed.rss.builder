@@ -8,7 +8,7 @@ xml.rss :version => "2.0" do
     xml.description "Testing RSS setup for Senior Seminar"
     xml.link "https://benjamin-watson-push-src.herokuapp.com"
     xml.link rel: "hub",  href: "https://benjamin-watson-senior-seminar.superfeedr.com/"
-    xml.link rel: "self", href: "http://benjamin-watson-push-src.herokuapp.com/feed.rss"
+    xml.link rel: "self", href: "http://benjamin-watson-push-src.herokuapp.com/feed.rss", type: "application/rss+xml"
     xml.language "en"
 
     for article in @blog_articles
