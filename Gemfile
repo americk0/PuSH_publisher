@@ -5,6 +5,8 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
+gem 'nokogiri'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 

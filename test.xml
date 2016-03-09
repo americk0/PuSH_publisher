@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <status feed="http://benjamin-watson-push-src.herokuapp.com/feed.rss" xmlns="http://superfeedr.com/xmpp-pubsub-ext">
+    <http code="200">Fetched (ping) 200 86400 and parsed 1/11 entries</http>
+    <next_fetch>2016-03-03T21:40:00.948Z</next_fetch>
+    <entries_count_since_last_maintenance>21</entries_count_since_last_maintenance>
+    <velocity>1.8</velocity>
+    <generated_ids>true</generated_ids>
+    <period>86400</period>
+    <last_fetch>2016-03-02T21:40:00.730Z</last_fetch>
+    <last_parse>2016-03-02T21:40:00.755Z</last_parse>
+    <last_maintenance_at>2016-03-02T19:48:17.000Z</last_maintenance_at>
+  </status>
+  <link href="https://benjamin-watson-push-src.herokuapp.com" rel="alternate" title="TestBlog" type="text/html"/><link href="https://benjamin-watson-senior-seminar.superfeedr.com/" rel="hub" title="" type="text/html"/><link href="http://benjamin-watson-push-src.herokuapp.com/feed.rss" rel="self" title="TestBlog" type="application/rss+xml"/>
+  <title>TestBlog</title>
+  <updated>2016-03-02T21:39:38.000Z</updated>
+  <id>testblog-2016-3-2-21</id>
+  <entry xml:lang="en" xmlns:as="http://activitystrea.ms/spec/1.0/" xmlns:geo="http://www.georss.org/georss" xmlns:sf="http://superfeedr.com/xmpp-pubsub-ext" xmlns="http://www.w3.org/2005/Atom">
+    <id>46</id>
+    <published>2016-03-02T21:39:38.000Z</published>
+    <updated>2016-03-02T21:39:38.000Z</updated>
+    <title>fun</title>
+    <summary type="html">&lt;p&gt;fun&lt;/p&gt;</summary><link href="https://benjamin-watson-push-src.herokuapp.com/blog_articles/46" rel="alternate" title="fun" type="text/html"/>
+    <author>
+      <name>fun</name>
+      <uri></uri>
+      <email></email>
+      <id>fun</id>
+    </author>
+  </entry>
+</feed>

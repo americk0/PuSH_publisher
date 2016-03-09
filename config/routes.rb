@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :blog_articles
-
+  get 'test_xml' => 'blog_articles#test_xml'
   # sets /feed to call blog_article_controller's feed method
   get 'feed' => 'blog_articles#feed'
 

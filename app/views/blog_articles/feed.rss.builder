@@ -6,9 +6,9 @@ xml.rss :version => "2.0" do
     xml.title "TestBlog"
     xml.author "Ben Watson"
     xml.description "Testing RSS setup for Senior Seminar"
-    xml.link "https://benjamin-watson-push-src.herokuapp.com"
+    xml.link rel: "self", href: "https://benjamin-watson-push-src.herokuapp.com/feed.rss", type: "application/rss+xml"
     xml.link rel: "hub",  href: "https://benjamin-watson-senior-seminar.superfeedr.com/"
-    xml.link rel: "self", href: "http://benjamin-watson-push-src.herokuapp.com/feed.rss", type: "application/rss+xml"
+    xml.link "https://benjamin-watson-push-src.herokuapp.com"
     xml.language "en"
 
     for article in @blog_articles
