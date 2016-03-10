@@ -60,7 +60,7 @@ class BlogArticlesController < ApplicationController
           'hub.mode' => 'publish',
           'hub.url' => 'https://benjamin-watson-push-src.herokuapp.com/feed.rss',
         }
-        x = Net::HTTP.post_form uri, post_params
+        Net::HTTP.post_form uri, post_params
 
         format.html { redirect_to @blog_article, notice: 'Blog article was successfully created.' }
         format.json { render :show, status: :created, location: @blog_article }
