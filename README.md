@@ -1,4 +1,4 @@
-To see the tutorial for how to set up the client, go [here](https://github.com/americk0/PuSH_subscriber "PuSH subscriber")
+To see the tutorial for how to set up the subscriber, go [here](https://github.com/americk0/PuSH_subscriber "PuSH subscriber")
 
 # Set up the Publisher
 
@@ -59,7 +59,7 @@ get “feed” => “blog_articles#feed”
 * Go to superfeedr.com and create an account. Once you create an account, you will set up your hub and superfeedr will ask you to come up with a unique name for your hub and provide the feed url of your heroku app. At this time, your app may not yet be on heroku, so just come up with the unique name for the hub and remember that for the next step.
 * Look back at your feed.rss.builder file. Replace the “benjamin-watson-senior-seminar” part of the blue url with whatever you chose as your hub name on superfeedr.
 * Make a heroku app for your webpage like we have been doing in class for the homework and before you push, get the name of your heroku app and change the red, green, and purple urls in feed.rss.builder according to your heroku app name.
-* Now app push your app to heroku. At this point your app is ready to be a publisher and all you need to do to finish is go back to the superfeedr page that was asking you to provide a hub name and your feed url, provide the feed url, and continue to finish your account. Superfeedr will check your feed url every 24 hours and send any new data to the subscribers. If you want the hub to send updates immediately after you make a post, you can add the following highlighted code into the “create” method of your BlogArticles controller. This will send a post request to the hub telling it that you have something new (note: you will need to change the urls to your urls).
+* Now push your app to heroku. At this point your app is ready to be a publisher and all you need to do to finish is go back to the superfeedr page that was asking you to provide a hub name and your feed url, provide the feed url, and continue to finish your account. Superfeedr will check your feed url every 24 hours and send any new data to the subscribers. If you want the hub to send updates immediately after you make a post, you can add the following highlighted code into the “create” method of your BlogArticles controller. This will send a post request to the hub telling it that you have something new (note: you will need to change the urls to your urls).
 
 ```ruby
 def create
