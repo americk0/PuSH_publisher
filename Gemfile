@@ -43,6 +43,8 @@ group :development, :test do
 end
 
 group :development do
+  gem 'annotate'
+
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
 
